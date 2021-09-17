@@ -8,6 +8,10 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Nunito', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 header {
@@ -261,6 +265,10 @@ footer .copyright {
     justify-content: space-between;
 }
 
+.principal-contato .container .formulario {
+    flex: 1;
+}
+
 .principal-contato .container .formulario h1 {
     font-weight: 800;
     font-size: 40px;
@@ -272,8 +280,6 @@ footer .copyright {
 
 .principal-contato .container .formulario form {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
     flex-direction: column;
 }
 
@@ -305,7 +311,7 @@ footer .copyright {
   font-size: 16px;
   line-height: 22px;
   color: #FFFFFF;
-  width: 100%;
+  width: 400px;
   height: 32px;
   border: none;
   cursor: pointer;
@@ -315,6 +321,7 @@ footer .copyright {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
+    flex: 1;
 }
 
 .principal-contato .container .info-contato .info .contato a {
@@ -322,11 +329,16 @@ footer .copyright {
     color: #000000;
     font-size: 18px;
     line-height: 25px;
-
 }
+
+.principal-contato .container .info-contato .info .contato {
+    margin-bottom: 30px;
+}
+
 .principal-contato .container .info-contato .mapa iframe{
     height: 250px;
     border: 3px solid #FFFFFF;
+    margin-top: 20px;
 }
 
 /* Trabalhe Conosco */
