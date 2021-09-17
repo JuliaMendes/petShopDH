@@ -172,6 +172,91 @@ footer .copyright {
     justify-content: center;
 }
 
+/* Página Serviços */
+
+.principal-servicos h2 {
+    font-size: 40px;
+    line-height: 55px;
+    color: #FFBE51;
+    font-weight: 400;
+    text-align: center;
+}
+
+.principal-servicos .container {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.principal-servicos .container article {
+    display: flex;
+    align-items: center;
+    margin: 50px;
+}
+
+.principal-servicos .container article .info .conteudo {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.principal-servicos .container article .info .conteudo .servico-e-preco {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.principal-servicos .container article .info .conteudo .descricao-e-botao {
+    display: flex;
+    flex-direction: column;
+}
+
+.principal-servicos .container article .info .conteudo .servico-e-preco h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 55px;
+}
+
+.principal-servicos .container article .info .conteudo .servico-e-preco .price{
+    font-size: 30px;
+    line-height: 41px;
+    font-style: normal;
+    font-weight: normal
+}
+
+.principal-servicos .container article .info .conteudo p {
+    font-size: 18px;
+    line-height: 25px;
+    color: #757575;
+    text-align: justify;
+}
+
+.principal-servicos .container article .info .conteudo button {
+  background-color: #FFC107;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+  width: 245px;
+  height: 32px;
+  border: none;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.principal-servicos .container .line  hr {
+    width: 1000px;
+    height: 5px;
+    background: #C4C4C4;   
+    border: none;
+}
+
+
+
+
+
+
 
 
 
