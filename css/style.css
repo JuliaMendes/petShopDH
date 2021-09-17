@@ -49,6 +49,7 @@ header ul li a {
     text-decoration: none;
     color: #FFFFFF;
 }
+
 .banner-principal {
     margin: 80px;
 }
@@ -56,7 +57,7 @@ header ul li a {
 .banner-principal .container {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .banner-principal .container h1 {
@@ -251,6 +252,105 @@ footer .copyright {
     background: #C4C4C4;   
     border: none;
 }
+
+/* Contato */
+
+.principal-contato .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.principal-contato .container .formulario h1 {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 55px;
+    color: #FFC107;
+    display: flex;
+    margin: 0;
+}
+
+.principal-contato .container .formulario form {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.principal-contato .container .formulario form input {
+    font-size: 16px;
+    line-height: 22px;
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    width: 400px;
+    height: 40px;
+    text-transform: lowercase;
+    color: #58555D;
+    font-family: inherit;
+    padding-left: 20px;
+}
+
+.principal-contato .container .formulario form textarea {
+    height: 200px;
+    width: 400px;
+    color: #58555D;
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.principal-contato .container .formulario button {
+    background-color: #FFC107;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+  width: 100%;
+  height: 32px;
+  border: none;
+  cursor: pointer;
+}
+
+.principal-contato .container .info-contato {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.principal-contato .container .info-contato .info .contato a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    line-height: 25px;
+
+}
+.principal-contato .container .info-contato .mapa iframe{
+    height: 250px;
+    border: 3px solid #FFFFFF;
+}
+
+/* Trabalhe Conosco */
+
+
+  .principal-trabalhe-conosco form input, form textarea, form select {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0 20px;
+    resize: none;
+}
+
+.principal-trabalhe-conosco form button {
+    padding: 15px 30px;
+    text-transform: uppercase;
+    background-color: #ffbe51;
+    border: 0;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 50px;
+} 
+
+
+
 
 
 
