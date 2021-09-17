@@ -17,7 +17,7 @@ body {
 header {
     box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
     padding: 15px 0;
-    background-color:#FFBE51;
+    background-color: #FFBE51;
     height: 113px;
 }
 
@@ -69,7 +69,7 @@ header ul li a {
     font-size: 35px;
     line-height: 55px;
     text-transform: uppercase;
-    color:  #757575;
+    color: #757575;
 }
 
 .servicos {
@@ -84,7 +84,7 @@ header ul li a {
     align-items: center;
 }
 
-.servicos  h2 {
+.servicos h2 {
     font-size: 40px;
     line-height: 55px;
     color: #000000;
@@ -153,7 +153,7 @@ footer .container {
 
 footer .container .info {
     font-size: 15px;
-    line-height: 25px;  
+    line-height: 25px;
 }
 
 footer .container .info a {
@@ -169,7 +169,7 @@ footer .container .mapa iframe {
 }
 
 footer .copyright {
-    background-color:  #C4C4C4;
+    background-color: #C4C4C4;
     font-size: 18px;
     height: 70px;
     display: flex;
@@ -189,7 +189,7 @@ footer .copyright {
 
 .principal-servicos .container {
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
 }
@@ -223,7 +223,7 @@ footer .copyright {
     line-height: 55px;
 }
 
-.principal-servicos .container article .info .conteudo .servico-e-preco .price{
+.principal-servicos .container article .info .conteudo .servico-e-preco .price {
     font-size: 30px;
     line-height: 41px;
     font-style: normal;
@@ -238,22 +238,22 @@ footer .copyright {
 }
 
 .principal-servicos .container article .info .conteudo button {
-  background-color: #FFC107;
-  font-weight: 800;
-  font-size: 16px;
-  line-height: 22px;
-  color: #FFFFFF;
-  width: 245px;
-  height: 32px;
-  border: none;
-  cursor: pointer;
-  margin: 20px;
+    background-color: #FFC107;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    width: 245px;
+    height: 32px;
+    border: none;
+    cursor: pointer;
+    margin: 20px;
 }
 
-.principal-servicos .container .line  hr {
+.principal-servicos .container .line hr {
     width: 1000px;
     height: 5px;
-    background: #C4C4C4;   
+    background: #C4C4C4;
     border: none;
 }
 
@@ -303,18 +303,20 @@ footer .copyright {
     font-family: inherit;
     font-size: 16px;
     line-height: 22px;
+    padding-left: 20px;
+    margin: 0;
 }
 
 .principal-contato .container .formulario button {
     background-color: #FFC107;
-  font-weight: 800;
-  font-size: 16px;
-  line-height: 22px;
-  color: #FFFFFF;
-  width: 400px;
-  height: 32px;
-  border: none;
-  cursor: pointer;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    width: 400px;
+    height: 32px;
+    border: none;
+    cursor: pointer;
 }
 
 .principal-contato .container .info-contato {
@@ -324,6 +326,10 @@ footer .copyright {
     flex: 1;
 }
 
+.principal-contato .container .info-contato .info .contato {
+    margin-bottom: 30px;
+}
+
 .principal-contato .container .info-contato .info .contato a {
     text-decoration: none;
     color: #000000;
@@ -331,20 +337,19 @@ footer .copyright {
     line-height: 25px;
 }
 
-.principal-contato .container .info-contato .info .contato {
-    margin-bottom: 30px;
-}
-
-.principal-contato .container .info-contato .mapa iframe{
+.principal-contato .container .info-contato .mapa iframe {
     height: 250px;
     border: 3px solid #FFFFFF;
     margin-top: 20px;
 }
 
+
 /* Trabalhe Conosco */
 
 
-  .principal-trabalhe-conosco form input, form textarea, form select {
+.principal-trabalhe-conosco form input,
+form textarea,
+form select {
     width: 100%;
     padding: 5px;
     margin: 5px 0 20px;
@@ -359,17 +364,74 @@ footer .copyright {
     color: white;
     font-weight: 600;
     margin-bottom: 50px;
-} 
+}
+
+/* login */
+
+.principal-login .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.principal-login .container .imagem img {
+    width: 90%;
+}
 
 
+.principal-login .container .formulario {
+    box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.25);
+    width: 411px;
+    height: 423px;
+}
 
+.principal-login .container .formulario h1 {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 55px;
+    color: #FFC107;
+    text-align: center;
+    text-transform: uppercase;
+}
 
+.principal-login .container .formulario {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
+.principal-login .container .formulario form input {
+    width: 245px;
+    height: 32px;
+    border: 1px solid #686868;
+    box-sizing: border-box;
+    padding-left: 20px;
+    font-family: inherit;
+    margin: 10px;
+}
 
+.principal-login .container .formulario form .botao button {
+    background-color: #FFC107;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    width: 245px;
+    height: 32px;
+    border: none;
+    cursor: pointer;
+    margin: 20px 10px 10px ;
+    text-align: center;
+}
 
+.principal-login .container .formulario form .cadastre-se {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+}
 
-
-
-
-
-
+.principal-login .container .formulario form .cadastre-se a {
+    text-decoration: none;
+    color: #000000;
+}
