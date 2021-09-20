@@ -347,13 +347,18 @@ footer .copyright {
 /* Trabalhe Conosco */
 
 
-.principal-trabalhe-conosco form input,
+.principal-trabalhe-conosco form input:not([type="checkbox"]),
 form textarea,
 form select {
     width: 100%;
     padding: 5px;
     margin: 5px 0 20px;
     resize: none;
+}
+
+.principal-trabalhe-conosco form input:not([type="checkbox"], [type="file"]):focus-visible, 
+form textarea:focus-visible, form select:focus-visible {
+    outline-color:#ffbe51 ;
 }
 
 .principal-trabalhe-conosco form button {
@@ -364,6 +369,23 @@ form select {
     color: white;
     font-weight: 600;
     margin-bottom: 50px;
+    transition: 0.5s;
+}
+
+.principal-trabalhe-conosco form button:hover {
+    background-color: #ee9e15;
+}
+
+.principal-trabalhe-conosco form button:active {
+    background-color: #ffa200;
+}
+
+.principal-trabalhe-conosco form .check {
+    margin: 5px 0;
+}
+
+.principal-trabalhe-conosco form .check:last-of-type {
+    margin-bottom: 30px;
 }
 
 /* login */
@@ -420,7 +442,7 @@ form select {
     height: 32px;
     border: none;
     cursor: pointer;
-    margin: 20px 10px 10px ;
+    margin: 20px 10px 10px;
     text-align: center;
 }
 
