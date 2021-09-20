@@ -72,6 +72,9 @@ header ul li a {
     color: #757575;
 }
 
+
+
+
 .servicos {
     padding: 50px 0;
     background-color: #E5E5E5;
@@ -250,8 +253,12 @@ footer .copyright {
     margin: 20px;
 }
 
+.principal-servicos .container .line {
+    width: 100%;
+}
+
 .principal-servicos .container .line hr {
-    width: 1000px;
+    width: 100%;
     height: 5px;
     background: #C4C4C4;
     border: none;
@@ -356,9 +363,10 @@ form select {
     resize: none;
 }
 
-.principal-trabalhe-conosco form input:not([type="checkbox"], [type="file"]):focus-visible, 
-form textarea:focus-visible, form select:focus-visible {
-    outline-color:#ffbe51 ;
+.principal-trabalhe-conosco form input:not([type="checkbox"], [type="file"]):focus-visible,
+form textarea:focus-visible,
+form select:focus-visible {
+    outline-color: #ffbe51;
 }
 
 .principal-trabalhe-conosco form button {
@@ -456,4 +464,140 @@ form textarea:focus-visible, form select:focus-visible {
 .principal-login .container .formulario form .cadastre-se a {
     text-decoration: none;
     color: #000000;
+}
+
+/* responsividade página principal */
+
+@media (max-width: 769px) {
+    header {
+        width: 100%;
+    }
+
+    header .container {
+        flex-wrap: wrap;
+    }
+
+    header .container ul {
+        flex-wrap: wrap;
+        gap: 14px;
+    }
+
+    header .container ul li {
+        font-size: 15px;
+    }
+
+    header .container li a {
+        color: #FFBE51;
+    }
+
+    .banner-principal .container {
+        flex-wrap: wrap;
+    }
+
+    .banner-principal .container .texto h1 {
+        max-width: 100%;
+        font-size: 20px;
+    }
+
+    .banner-principal .container .imagem-principal img {
+        max-width: 100%;
+    }
+
+    .servicos .container {
+        flex-wrap: wrap;
+    }
+
+    .banner .container {
+        flex-wrap: wrap;
+    }
+
+    .banner .container .imagem-banner img {
+        max-width: 100%;
+    }
+
+    .banner .container .texto {
+        max-width: 100%;
+        padding: 10px;
+        text-align: justify;
+    }
+
+    footer .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .container .mapa iframe {
+        max-width: 100%;
+        margin: 0;
+    }
+
+
+    /* responsividade página serviços */
+
+    .principal-servicos .container article {
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .principal-servicos .container article .conteudo {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .principal-servicos h2 {
+        margin-top: 70px;
+    }
+
+    .principal-servicos .container article img {
+        margin-top: 30px;
+    }
+
+
+    /* responsividade página contato */
+
+
+    .principal-contato .container {
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .principal-contato .container .formulario {
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+
+    .principal-contato .container .formulario h1 {
+        margin-top: 50px;
+    }
+
+    .principal-contato .container .info-contato {
+        flex-wrap: wrap;
+        text-align: left;
+        justify-content: left;
+    }
+
+    .principal-contato .container .info-contato .mapa iframe {
+        max-width: 100%;
+    }
+
+    /* responsividade página login */
+
+    .principal-login .container {
+        flex-wrap: wrap;
+    }
+
+    .principal-login .container .imagem img {
+        max-width: 100%;
+        margin: 100px 20px 20px;
+    }
+
+    /* responsividade página cadastro */
+    .principal-cadastro .container .imagem img {
+        max-width: 100%;
+    }
 }
