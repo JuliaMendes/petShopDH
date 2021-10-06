@@ -1,38 +1,41 @@
-// console.log("arquivo main.js está sendo executado!");
-// console.log(document);
+window.addEventListener('load', () => {
+    // console.log("arquivo main.js está sendo executado!");
+    // console.log(document);
 
-// let pessoa = ["Hendy", 25];
+    // let pessoa = ["Hendy", 25];
 
-// let pessoaObj = {
-//     "nome": "Hendy",
-//     "idade": 25
-// };
+    // let pessoaObj = {
+    //     "nome": "Hendy",
+    //     "idade": 25
+    // };
 
-// console.log(pessoaObj.nome);
+    // console.log(pessoaObj.nome);
 
-let inputNome = document.querySelector('input');
+    let inputNome = document.querySelector('input');
 
-console.log(inputNome.id);
+    //console.log(inputNome.id);
 
-let dadosForm = document.querySelectorAll('input');
-console.log(dadosForm)
+    let dadosForm = document.querySelectorAll('input');
+    //console.log(dadosForm)
 
-let tituloPrincipal = document.querySelector('h1');
-tituloPrincipal.innerText = 'Faça parte do nossso time';
+    let tituloPrincipal = document.querySelector('h1');
+    tituloPrincipal.innerText = 'Faça parte do nossso time';
 
-let inputEmail = document.querySelector('#email');
+    let inputEmail = document.querySelector('#email');
 
-inputEmail.setAttribute('placeholder', 'jane@email.com');
+    inputEmail.setAttribute('placeholder', 'jane@email.com');
 
-let inputCargaHoraria = document.querySelector('#carga-horaria');
-console.log(inputCargaHoraria.innerHTML)
+    let inputCargaHoraria = document.querySelector('#carga-horaria');
+    //console.log(inputCargaHoraria.innerHTML)
 
-inputCargaHoraria.innerHTML += '<option value="Trainee">Trainee</option>'; //acrescentar um valor usa +=
+    inputCargaHoraria.innerHTML += '<option value="Trainee">Trainee</option>'; //acrescentar um valor usa +=
 
-tituloPrincipal.style.color = 'orange';
+    tituloPrincipal.style.color = 'orange';
 
-let elementoDiv = document.querySelector('div');
+    let elementoDiv = document.querySelector('div');
 
-//elementoDiv.classList.add('novaClasse')
+    //elementoDiv.classList.add('novaClasse')
 
-//elementoDiv.classList.remove('container');
+    //elementoDiv.classList.remove('container');
+
+})
